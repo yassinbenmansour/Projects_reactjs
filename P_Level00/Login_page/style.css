@@ -1,7 +1,9 @@
-#login {
-    color:#54BAB9 ;
-    font-size: 30px;
-    text-align: center;
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+
 }
 #div1 {
   text-align: center;
@@ -9,21 +11,40 @@
   margin-bottom: 200px;
   margin-right: 500px;
   margin-left: 500px;
-  background-color: #9ED2C6;
-  border-radius: 30px;
-  padding: 15px;
-
+  background-color: #BDE6F1;
+  border-radius: 20px;
+  padding: 10px;
 
 }
 body {
-  background-color : #54BAB9;
-  background-image: url("P_Level00/Login_page/icon_log.svg");
+  font-family: Copperplate, Papyrus, fantasy;
+  background-color : #293462;
   
 }
 
 .loginimg {
-  width: 40px;
+  width: 90px;
 }
-/*
-icon_log.svg
-*/
+
+.btn {
+  background-color: #293462;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #fff;
+}
