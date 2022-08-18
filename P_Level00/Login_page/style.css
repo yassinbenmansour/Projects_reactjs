@@ -1,8 +1,29 @@
 #login {
-    color:#9999FF ;
+    color:#54BAB9 ;
     font-size: 30px;
     text-align: center;
 }
 #div1 {
   text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 500px;
+  margin-left: 500px;
+  background-color: #9ED2C6;
+  border-radius: 30px;
+  padding: 15px;
+
+
 }
+body {
+  background-color : #54BAB9;
+  background-image: url("P_Level00/Login_page/icon_log.svg");
+  
+}
+
+.loginimg {
+  width: 40px;
+}
+/*
+icon_log.svg
+*/
