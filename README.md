@@ -6,7 +6,7 @@ Projects
 Level 01 :  
 - [ ] survey form
 - [ ] Quiz website
-- [ ] Login page
+- [X] Login page
 
 Level 02 : 
 - [ ] Landing pages
