@@ -1,1 +1,0 @@
-const projectName = 'survey-form';
