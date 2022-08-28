@@ -4,11 +4,10 @@ import React, { Component } from 'react'
     const [count , setCount] = React.useState(0);
 
     return (
+    <main>
+        <section className='container'>
         <div className='coutainer'>
-            <div className='row my-5'>
-                <div className='col-md-§ mx-auto'>
-                    <div className='card'>
-                        <div className='card-body'>
+            
                             <p className='lead'>
                                 <span className='bg bg-danger text-white rounded p-2'>
                                     {count}
@@ -20,10 +19,9 @@ import React, { Component } from 'react'
 
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                
+        </section>
+    </main>
 
     );
  }
