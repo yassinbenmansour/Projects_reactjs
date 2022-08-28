@@ -15,6 +15,7 @@ import React, { Component } from 'react'
                             </p>
                             <div className='form-group'>
                                 <button onClick={ () => setCount(count + 1)} className='btn btn-primary btn-sm'> + </button>
+                                <br></br>
                                 <button onClick={ () => setCount(count - 1)} className='btn btn-primary btn-sm'> - </button>
 
                             </div>
