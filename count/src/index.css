@@ -1,28 +1,6 @@
 
 :root {
-  /* dark shades of primary color*/
-  --clr-primary-1: hsl(162, 61%, 89%);
-  --clr-primary-2: hsl(162, 60%, 78%);
-  --clr-primary-3: hsl(162, 61%, 67%);
-  --clr-primary-4: hsl(162, 61%, 57%);
-  /* primary/main color */
-  --clr-primary-5: hsl(162, 73%, 46%);
-  /* lighter shades of primary color */
-  --clr-primary-6: #1aa179;
-  --clr-primary-7: #13795b;
-  --clr-primary-8: #0d503c;
-  --clr-primary-9: #06281e;
-  /* darkest grey - used for headings */
-  --clr-grey-1: hsl(212, 33%, 89%);
-  --clr-grey-2: hsl(210, 31%, 80%);
-  --clr-grey-3: hsl(211, 27%, 70%);
-  --clr-grey-4: hsl(209, 23%, 60%);
-  /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-6: hsl(209, 28%, 39%);
-  --clr-grey-7: hsl(209, 34%, 30%);
-  --clr-grey-8: hsl(211, 39%, 23%);
-  --clr-grey-9: hsl(209, 61%, 16%);
+  
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -38,19 +16,7 @@
   --fixed-width: 450px;
   --clr-pink: #e88d4c;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
 
-*,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -89,11 +55,7 @@ main {
   padding: 1.5rem 2rem;
   box-shadow: var(--dark-shadow);
 }
-.container h3 {
-  font-weight: normal;
-  text-transform: none;
-  margin-bottom: 2rem;
-}
+
 
 .container button {
   color: var(--clr-white);
