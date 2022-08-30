@@ -27,7 +27,7 @@ class App extends React.Component{
     console.log(this.state);
 
     return(
-        <div> 
+        <div > 
           <form onSubmit={(event) => this.submitForm(event)} method='post'>
             <input type="text" name='name' id='' autoComplete='off' placeholder="Nom et prénom" 
             onChange={(event) => this.setState({ ...this.state,name : event.target.value})} />
