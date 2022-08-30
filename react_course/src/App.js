@@ -2,28 +2,41 @@ import './App.css';
 import React from 'react';
 
 class App extends React.Component{
-  state = {
-    title : "Home",
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      name : "",
+      age : "",
+    };
+  }
 
- componentDidMount() {
-    document.title = this.state.title ;
- }
 
- componentDidUpdate(){
-    document.title = this.state.title;
- }
-
+    componentDidMount (){
+      console.log("component did mount");
+    }
+    componentDidUpdate (){
+      console.log("component did update");
+    }
 
   render(){
+    console.log(this.state);
+
     return(
         <div> 
-        <h1> My full name is  {this.state.name} and   {this.state.age} years old  </h1>
-        <button onClick={() => this.setState({title : "Contact"})}> change title </button>
+          <form method='post'>
+            <input type="text" name='name' id='' autoComplete='off' placeholder="Nom et prénom" 
+            onChange={(event) => this.setState({ ...this.state,name : event.target.value})} />
+
+            <input type="text" id='' autoComplete='off' placeholder="Age"
+            onChange={(event) => this.setState({ ...this.state, age: event.target.value })} />
+            <button type=""> Validé</button>
+
+          </form>
         </div>
     );
   }
 
+  
 }
 
 export default App;
