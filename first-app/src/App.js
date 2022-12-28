@@ -1,16 +1,14 @@
 import './App.css';
+import URef from './components/URef';
 
-import Listtable from './components/Listtable';
 
 
 function App() {
   return (
     <div className="App container m-5">
     
-
-    <Listtable />
-      
-    
+    <URef />
+          
 
     </div>
   );
