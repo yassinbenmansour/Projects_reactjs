@@ -16,8 +16,8 @@ export default function Arraylist() {
             <h1>    list des etudiant :</h1>
         <ul>
             {
-                datalistt.map((el)=>{
-                    return <li> Nom: {el.nom} - Prenom : {el.prenom} - ville : {el.ville} </li>
+                datalistt.map((el,index)=>{
+                    return <li key={index}> {index} Nom: {el.nom} - Prenom : {el.prenom} - ville : {el.ville} </li>
                 })
             }
            
