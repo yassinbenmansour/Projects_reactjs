@@ -1,6 +1,6 @@
 import './App.css';
 
-import Arraylist from './components/Arraylist'
+import Listtable from './components/Listtable';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App container m-5">
     
 
-    <Arraylist />
+    <Listtable />
       
     
 
