@@ -1,14 +1,13 @@
 import './App.css';
-import URef from './components/URef';
+import Urefcheckbox from './components/Urefcheckbox';
 
 
 
 function App() {
   return (
     <div className="App container m-5">
-    
-    <URef />
-          
+
+          <Urefcheckbox />      
 
     </div>
   );

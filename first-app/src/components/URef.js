@@ -26,7 +26,7 @@ export default function URef() {
 
   return (
     <div>
-        <div className="container m-5 p-5"></div>
+        <div className="container m-5 p-5 mx-auto d-block"></div>
         <h1>Entre votre information</h1>
         <form>
         <label className='form-label'>Nom :</label>
@@ -34,7 +34,7 @@ export default function URef() {
         <label className='form-label'>Prenom :</label>
         <input className='form-control' type="text" ref={ref2}  />
         <label className='form-label'>Age :</label>
-        <input className='form-control' type="text" ref={ref3}  />
+        <input className='form-control' type="number" ref={ref3}  />
         <label className='form-label'>Ville :</label>
         <input className='form-control' type="text" ref={ref4}  />
 <br />
