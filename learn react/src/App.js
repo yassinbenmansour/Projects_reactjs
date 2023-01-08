@@ -1,13 +1,12 @@
 import './App.css';
-import Useffectcount from './components/Useffectcount';
-
+import UseEfect2 from './components/UseEfect2';
 
 
 function App() {
   return (
     <div className="App container m-5">
 
-      <Useffectcount />
+      <UseEfect2 />
 
     </div>
   );
