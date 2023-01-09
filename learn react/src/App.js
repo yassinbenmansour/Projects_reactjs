@@ -1,13 +1,26 @@
 import './App.css';
-import UseEfect2 from './components/UseEfect2';
+import { Routes, Route } from "react-router-dom";
+import Er from './components/Routes/Er';
+import Profil from './components/Routes/Profil';
+import Menu from './components/Routes/Menu';
+
+
 
 
 function App() {
   return (
-    <div className="App container m-5">
+    <div className="App container m-5 text-center">
 
-      <UseEfect2 />
+   
+   <Menu />
 
+   <Routes>
+    <Route path='/Profil' element={<Profil/>}/>
+    <Route path='/Er' element={<Er/>}/>
+
+    
+   </Routes>
+       
     </div>
   );
 }
