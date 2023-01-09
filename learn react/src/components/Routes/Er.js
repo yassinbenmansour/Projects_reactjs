@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Er() {
+function Er() {
   return (
     <div>
       <h1>Page not found </h1>
@@ -8,3 +8,6 @@ export default function Er() {
     </div>
   )
 }
+
+
+export default Er;
